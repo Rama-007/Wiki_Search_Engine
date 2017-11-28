@@ -1,0 +1,13 @@
+Have Stemmer installed in the system 
+"sudo pip install pystemmer"
+
+Output will be stored in .txt format
+
+Techniques used :
+1) Tokenization
+2) CaseFolding
+3) Stopword removal
+4) Stemming : For stemming I first tried using nltk stemmer but there were errors in it and also it takes a lot of time in running so I shifter towards the porter stemmer in pystemmer.
+5)Created inverted index and stored in this way:
+	word:doc_id total_tf-idf_value t-title_tfvalue b-bodytext_tfvalue i-infobox_tfvalue c-category_tfvalue e-externallinks_tfvalue r-reference_tfvalue
+6)Proper Optimisation is done and achieved an index size of 28MB for 128MB file.
