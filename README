@@ -11,3 +11,6 @@ Techniques used :
 5)Created inverted index and stored in this way:
 	word:doc_id total_tf-idf_value t-title_tfvalue b-bodytext_tfvalue i-infobox_tfvalue c-category_tfvalue e-externallinks_tfvalue r-reference_tfvalue
 6)Proper Optimisation is done and achieved an index size of 28MB for 128MB file.
+
+##bash index.sh to create index
+##and python fsearch.py to search
